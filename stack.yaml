@@ -1,0 +1,11 @@
+resolver: lts-3.7
+
+packages:
+  - "."
+
+extra-deps:
+  - glpk-hs-0.3.5
+
+nix:
+  enable: true
+  packages: [glpk]
